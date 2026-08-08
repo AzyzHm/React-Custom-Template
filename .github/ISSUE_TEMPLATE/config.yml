@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question / start a discussion
+    url: https://github.com/AzyzHm/React-Custom-Template/discussions
+    about: For questions and general discussion, please use GitHub Discussions instead of an issue.
