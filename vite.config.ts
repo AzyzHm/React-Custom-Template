@@ -20,12 +20,7 @@ export default defineConfig({
       provider: "v8",
       reporter: ["text", "html", "lcov"],
       reportsDirectory: "./coverage",
-      exclude: [
-        "tests/e2e/**",
-        "**/*.config.*",
-        "src/main.tsx",
-        "src/vite-env.d.ts",
-      ],
+      exclude: ["tests/e2e/**", "**/*.config.*", "src/main.tsx", "src/vite-env.d.ts"],
     },
   },
 });
